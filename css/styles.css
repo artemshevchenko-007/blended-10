@@ -209,6 +209,9 @@ img {
     border-radius: 19px;
     width: 54px;
     height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .green {
@@ -253,6 +256,10 @@ img {
     margin: 0 auto;
     display: block;
     
+}
+
+.specifically-icon {
+    fill: #fff;
 }
 
 /* #endregion */
