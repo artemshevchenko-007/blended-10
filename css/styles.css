@@ -142,14 +142,37 @@ img {
     font-weight: 700;
 }
 .watch-btn {
-    width: 164px;
-    height: 23px;
+    width: 180px;
+    height: 53px;
     border-color: transparent;
     font-weight: 600;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #02897a;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    transition: background-color 250ms ease-in-out;
+}
+
+.watch-btn:hover,
+.watch-btn:focus {
+    background-color: #02897a;
+    color: #fff;
+}
+
+.watch-btn:hover .hero-icon,
+.watch-btn:focus .hero-icon {
+    fill: #fff;
+}
+
+.hero-icon {
+    border-radius: 2px;
+    fill: #02897a;
 }
 /* #endregion */
 
